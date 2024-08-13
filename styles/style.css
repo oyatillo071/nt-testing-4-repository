@@ -1,0 +1,558 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'DM Sans', sans-serif;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 58px;
+    margin-bottom: 36px;
+}
+
+.logo {
+    width: 240px;
+    height: 49px;
+}
+
+.nav_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+ul>li {
+    font-family: 'Ageo';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.auth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 22px;
+}
+
+.auth a:hover {
+    color: blue;
+}
+
+.auth .login {
+    font-family: 'Ageo';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28.5px;
+    color: #000000;
+}
+
+.orange_button {
+    border-radius: 10px;
+    background-color: #FF6600;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+button:hover {
+    color: greenyellow;
+    background-color: blue;
+}
+
+.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+.main_left {
+    width: 50%;
+}
+
+.main_right {
+    width: 50%;
+    position: relative;
+}
+
+.main_title {
+    font-family: 'Ageo';
+    font-size: 70px;
+    font-weight: 850;
+    line-height: 81px;
+    text-align: left;
+    color: #0B1B35;
+    margin-bottom: 16px;
+}
+
+.main_info {
+    font-family: 'Ageo';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.5px;
+    text-align: left;
+    margin-bottom: 66px;
+}
+
+.learn_more_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+}
+
+.buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 28px;
+}
+
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.main_people {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+.busines_back,
+.clients_back,
+.lamp,
+.arrow {
+    position: absolute;
+    z-index: -1;
+}
+
+.arrow {
+    z-index: 2;
+}
+
+.clients_back {
+    right: 40%;
+    top: 90%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.busines_back {
+    top: 30%;
+    right: 8%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.lamp {
+    width: 230px;
+    height: 131px;
+    top: 55%;
+    right: 49%;
+    -webkit-transform: translate(-50%, -50%) rotate(30deg);
+        -ms-transform: translate(-50%, -50%) rotate(30deg);
+            transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.arrow {
+    width: 88.41px;
+    height: 232.46px;
+    top: 30%;
+    right: 5%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.services {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.services p {
+    font-family: 'Ageo';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.45em;
+    color: #8A898E;
+}
+
+.services h3 {
+    font-family: 'Ageo';
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 57px;
+}
+
+.card {
+    width: 352px;
+    height: 508px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    padding: 41px;
+    text-align: center;
+    -webkit-box-shadow: 0px 2.77px 2.21px 0px #00000005,
+        0px 6.65px 5.32px 0px #00000007,
+        0px 12.52px 10.02px 0px #00000009,
+        0px 22.34px 17.87px 0px #0000000B,
+        0px 41.78px 33.42px 0px #0000000D,
+        0px 100px 80px 0px #00000012;
+            box-shadow: 0px 2.77px 2.21px 0px #00000005,
+        0px 6.65px 5.32px 0px #00000007,
+        0px 12.52px 10.02px 0px #00000009,
+        0px 22.34px 17.87px 0px #0000000B,
+        0px 41.78px 33.42px 0px #0000000D,
+        0px 100px 80px 0px #00000012;
+}
+
+.card_icon_video {
+    width: 76.47px;
+    height: 57.35px;
+    top: 1048.33px;
+    left: 682px;
+    margin-top: 19px;
+}
+
+.card_icon {
+    width: 76.47px;
+}
+
+.card_title_video {
+    font-family: 'Ageo';
+    width: 212px;
+    height: 29px;
+    margin-top: 51px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28.5px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+    margin: 51px 70px 32px 29px;
+
+}
+
+.card_title,
+.card_title_digital {
+    font-family: 'Ageo';
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 41px;
+    margin-bottom: 42px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28.5px;
+    text-align: center;
+
+}
+
+.card_info {
+    font-family: 'Ageo';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.5px;
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+
+.card_title_digital {
+    font-size: 34px;
+}
+
+.card_icon_video {
+    height: 57.35px;
+}
+
+.many_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 182px;
+    margin-bottom: 147px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+}
+
+.blocks {
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #1E0E62;
+    margin-bottom: 21px;
+}
+
+.block_info {
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 73px;
+
+    width: 322.05px;
+    height: 125.44px;
+    top: 1811.84px;
+    left: 136.21px;
+
+}
+
+.exp_button {
+    border-radius: 100px;
+    border: 2px solid rgba(235, 234, 237, 1);
+    color: rgba(30, 14, 98, 1);
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+iframe {
+    border-radius: 10px;
+    width: 560px;
+    height: 315px;
+}
+
+.clients_say {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.client_card {
+    width: 470px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+
+.client_text {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(11, 27, 53, 1);
+    margin-bottom: 13px;
+}
+
+.client_name {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: rgba(11, 27, 53, 1);
+    opacity: 0.3;
+}
+
+h5:hover {
+    color: #2f00ff;
+    color: rgba(95, 15, 255, 1);
+    opacity: 1;
+
+}
+
+.meet_team {
+    width: 1170px;
+    height: 370px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 30px;
+
+}
+
+.team_card {
+    width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid rgba(235, 234, 237, 1);
+    border-radius: 10px;
+}
+
+.team_people {
+    margin: 50px 125px 29px 125px;
+    width: 120px;
+    height: 120px;
+
+}
+
+.team_name {
+
+    font-family: 'DM Sans';
+    font-size: 20px;
+    line-height: 32px;
+    width: 145px;
+    height: 32px;
+    color: rgba(30, 14, 98, 1);
+    margin-left: 114px;
+}
+
+.team_job {
+    margin-left: 129px;
+
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 107px;
+    height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.team_social {
+    margin-top: 45px;
+    width: 367px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60.5px;
+    border-top: 2px solid rgba(235, 234, 237, 1);
+}
+.social_icons {
+    padding: 18px 45px 10px 55px;
+}
+
+.border {
+    width: 2px;
+    height: 59px;
+    border: 2px;
+    border-right: 2px solid rgba(235, 234, 237, 1);
+}
+
+.mason{
+    width: 175px;
+height: 32px;
+
+font-family: 'DM Sans';
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+margin-left: 99px;
+
+}
+.manager{
+
+font-family: 'DM Sans';
+font-size: 10px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: center;
+width: 149px;
+height: 26px;
+color: rgba(21, 20, 57, 0.4);
+margin-left: 115px;
+}
